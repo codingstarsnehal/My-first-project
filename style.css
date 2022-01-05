@@ -1,0 +1,37 @@
+
+
+
+@font-face {
+    font-family: "Betterfly";
+    src: url("../fonts/betterfly-draft-webfont.woff2") format(woff2),url("f../onts/betterfly-draft-webfont.woff") format("woff");
+}
+
+@font-face {
+    font-family: "BFNarrow";
+    src: url("../fonts/betterfly-narrow-webfont.woff2") format(woff2),url("../fonts/betterfly-narrow-webfont.woff") format("woff");
+}
+@font-face {
+    font-family: "Crimson Text";
+    font-style: italic;
+    font-weight: 400;
+    src:local("Crimson Text Italic"), local("CrimsonText-Italic"),  
+    url("https://fonts.gstatic.com/s/crimsontext/v8/wlpogwHKFKZgtmSR3N80oRJfajhRK_z_3rhH.woff2") format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20-AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+:root{
+    --clr-text: #5a5a5a;
+    --clr-primary:;
+    --clr-accent: #764981;
+}
+
+.,
+.::before
+.::after{
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+    font-family: "crimson Text", serif;
+    color: var(--black);
+}
